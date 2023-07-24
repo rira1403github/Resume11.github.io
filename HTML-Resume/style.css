@@ -1,0 +1,194 @@
+hr
+{
+    color: aliceblue;
+}
+body
+{
+    background-color: black;
+}
+.container
+{
+    margin: 0%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'aside main main main main';
+}
+
+.aside
+{
+    margin: 0%;
+    grid-area: aside;
+    background-color: #111111;
+    width: 300px;
+    padding: 10px;
+    height: 100%;
+}
+.head
+{
+    color: aliceblue;
+    background-color: rgb(97, 95, 95);
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 3px rgb(230, 89, 37);
+    border-radius: 10px;
+}
+.content
+{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main
+{
+    grid-area: main;
+    background-color:  rgb(10, 9, 9);
+    margin: 0%;
+}
+.c2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+#c21 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+    padding: 0px 8px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+#c22 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px 8px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+#c23 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+margin: auto;
+    padding: 0px 8px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+.c3
+{
+    padding: 10px;
+    color: aliceblue;
+}
+.c3 .bars .bar  
+{
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+}
+.c3 span
+{
+    position: absolute;
+    content: " ";
+    width: 80%;
+    height: 7px;
+    top: 0;
+    background-color:  rgb(214, 110, 13);
+    border-radius: 40px;
+}
+.p1
+{
+    position: relative;
+    bottom: 18px;
+}
+/* ---- ====== Head start ===== ----*/
+.first
+{
+    width: auto;
+    height: 400px;
+}
+.first1
+{
+    background-image: url('resimg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 30px;    
+    height: 390px;
+    width: auto;
+    opacity: 0.1;
+    position: relative;
+}
+.first2
+{
+    background-image: url('resimg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 30px;
+    width: auto;
+    height: 300px;
+    position: relative;
+    bottom: 350px;
+    opacity: 0.4;
+    margin: 0 30px 0 30px;
+}
+.first3
+{
+    position: relative;
+    bottom: 600px;
+    left: 70px;
+    color: aliceblue;
+
+}
+.container .main .first .first3 h1
+{
+    font-size: 50px;
+    line-height: 30px;
+}
+.span
+{
+    color:  rgb(214, 110, 13);
+}
+/* ----Head end----*/
+/*   ==== services ====    */
+h2
+{
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+h4
+{
+    color: aliceblue;
+}
+.service
+{
+    display: grid;
+    grid-template-areas: 
+    's1 s2 s3'
+    's4 s5 s6';
+    background-color: rgb(10, 9, 9);
+    padding: 0 10px;
+}
+.s1 ,.s2,.s3,.s4,.s5,.s6
+{
+    background-color: rgb(29, 28, 28);
+    margin: 15px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
